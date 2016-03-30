@@ -1,0 +1,303 @@
+/*!
+ * # Semantic UI 2.1.7 - Site
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Copyright 2015 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+/*******************************
+             Page
+*******************************/
+
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 14px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  min-width: 320px;
+  background: #FFFFFF;
+  font-family: "Ubuntu", "Source Sans Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.4285em;
+  color: rgba(0, 0, 0, 0.8);
+  font-smoothing: antialiased;
+}
+
+
+/*******************************
+             Headers
+*******************************/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Ubuntu", "Source Sans Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  line-height: 1.2857em;
+  margin: 1em 0em 1rem;
+  font-weight: bold;
+  padding: 0em;
+}
+h1 {
+  min-height: 1rem;
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.714rem;
+}
+h3 {
+  font-size: 1.28rem;
+}
+h4 {
+  font-size: 1.071rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child {
+  margin-top: 0em;
+}
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child {
+  margin-bottom: 0em;
+}
+
+
+/*******************************
+             Text
+*******************************/
+
+p {
+  margin: 0em 0em 1em;
+  line-height: 1.4285em;
+}
+p:first-child {
+  margin-top: 0em;
+}
+p:last-child {
+  margin-bottom: 0em;
+}
+
+/*-------------------
+        Links
+--------------------*/
+
+a {
+  color: #009FDA;
+  text-decoration: none;
+}
+a:hover {
+  color: #00b2f3;
+  text-decoration: none;
+}
+
+
+/*******************************
+          Highlighting
+*******************************/
+
+
+/* Site */
+::-webkit-selection {
+  background-color: #FFFFCC;
+  color: rgba(0, 0, 0, 0.8);
+}
+::-moz-selection {
+  background-color: #FFFFCC;
+  color: rgba(0, 0, 0, 0.8);
+}
+::selection {
+  background-color: #FFFFCC;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* Form */
+textarea::-webkit-selection,
+input::-webkit-selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: rgba(0, 0, 0, 0.8);
+}
+textarea::-moz-selection,
+input::-moz-selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: rgba(0, 0, 0, 0.8);
+}
+textarea::selection,
+input::selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+
+/*******************************
+           Overrides
+*******************************/
+
+
+
+/*******************************
+         Site Overrides
+*******************************/
+
+
+/* BEGIN Ubuntu Light */
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntu-light-webfont.eot');
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntu-light-webfont.eot?#iefix') format('embedded-opentype'), url('../themes/default/assets/fonts/ubuntu/ubuntu-light-webfont.woff') format('woff'), url('../themes/default/assets/fonts/ubuntu/ubuntu-light-webfont.ttf') format('truetype'), url('../themes/default/assets/fonts/ubuntu/ubuntu-light-webfont.svg#ubuntulight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* END Ubuntu Light */
+
+/* BEGIN Ubuntu Light Italic */
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntu-light-italic-webfont.eot');
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntu-light-italic-webfont.eot?#iefix') format('embedded-opentype'), url('../themes/default/assets/fonts/ubuntu/ubuntu-light-italic-webfont.woff') format('woff'), url('../themes/default/assets/fonts/ubuntu/ubuntu-light-italic-webfont.ttf') format('truetype'), url('../themes/default/assets/fonts/ubuntu/ubuntu-light-italic-webfont.svg#ubuntulight_italic') format('svg');
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* END Ubuntu Light Italic */
+
+/* BEGIN Ubuntu Regular */
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntu-regular-webfont.eot');
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntu-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../themes/default/assets/fonts/ubuntu/ubuntu-regular-webfont.woff') format('woff'), url('../themes/default/assets/fonts/ubuntu/ubuntu-regular-webfont.ttf') format('truetype'), url('../themes/default/assets/fonts/ubuntu/ubuntu-regular-webfont.svg#ubunturegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* END Ubuntu Regular */
+
+/* BEGIN Ubuntu Regular Italic */
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntu-regular-italic-webfont.eot');
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntu-regular-italic-webfont.eot?#iefix') format('embedded-opentype'), url('../themes/default/assets/fonts/ubuntu/ubuntu-regular-italic-webfont.woff') format('woff'), url('../themes/default/assets/fonts/ubuntu/ubuntu-regular-italic-webfont.ttf') format('truetype'), url('../themes/default/assets/fonts/ubuntu/ubuntu-regular-italic-webfont.svg#ubuntuitalic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* END Ubuntu Regular Italic */
+
+/* BEGIN Ubuntu Medium */
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntu-medium-webfont.eot');
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntu-medium-webfont.eot?#iefix') format('embedded-opentype'), url('../themes/default/assets/fonts/ubuntu/ubuntu-medium-webfont.woff') format('woff'), url('../themes/default/assets/fonts/ubuntu/ubuntu-medium-webfont.ttf') format('truetype'), url('../themes/default/assets/fonts/ubuntu/ubuntu-medium-webfont.svg#ubuntumedium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* END Ubuntu Medium */
+
+/* BEGIN Ubuntu Medium Italic */
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntu-medium-italic-webfont.eot');
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntu-medium-italic-webfont.eot?#iefix') format('embedded-opentype'), url('../themes/default/assets/fonts/ubuntu/ubuntu-medium-italic-webfont.woff') format('woff'), url('../themes/default/assets/fonts/ubuntu/ubuntu-medium-italic-webfont.ttf') format('truetype'), url('../themes/default/assets/fonts/ubuntu/ubuntu-medium-italic-webfont.svg#ubuntumedium_italic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* END Ubuntu Medium Italic */
+
+/* BEGIN Ubuntu Bold */
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntu-bold-webfont.eot');
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntu-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../themes/default/assets/fonts/ubuntu/ubuntu-bold-webfont.woff') format('woff'), url('../themes/default/assets/fonts/ubuntu/ubuntu-bold-webfont.ttf') format('truetype'), url('../themes/default/assets/fonts/ubuntu/ubuntu-bold-webfont.svg#ubuntubold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* END Ubuntu Bold */
+
+/* BEGIN Ubuntu Bold Italic */
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntu-bold-italic-webfont.eot');
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntu-bold-italic-webfont.eot?#iefix') format('embedded-opentype'), url('../themes/default/assets/fonts/ubuntu/ubuntu-bold-italic-webfont.woff') format('woff'), url('../themes/default/assets/fonts/ubuntu/ubuntu-bold-italic-webfont.ttf') format('truetype'), url('../themes/default/assets/fonts/ubuntu/ubuntu-bold-italic-webfont.svg#ubuntubold_italic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* END Ubuntu Bold Italic */
+
+/* BEGIN Ubuntu Condensed */
+@font-face {
+  font-family: 'Ubuntu Condensed';
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntu-condensed-webfont.eot');
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntu-condensed-webfont.eot?#iefix') format('embedded-opentype'), url('../themes/default/assets/fonts/ubuntu/ubuntu-condensed-webfont.woff') format('woff'), url('../themes/default/assets/fonts/ubuntu/ubuntu-condensed-webfont.ttf') format('truetype'), url('../themes/default/assets/fonts/ubuntu/ubuntu-condensed-webfont.svg#ubuntu_condensedregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* END Ubuntu Condensed */
+
+/* BEGIN Ubuntu Mono Regular */
+@font-face {
+  font-family: 'Ubuntu Monospace';
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntumono-regular-webfont.eot');
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntumono-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../themes/default/assets/fonts/ubuntu/ubuntumono-regular-webfont.woff') format('woff'), url('../themes/default/assets/fonts/ubuntu/ubuntumono-regular-webfont.ttf') format('truetype'), url('../themes/default/assets/fonts/ubuntu/ubuntumono-regular-webfont.svg#ubuntu_monoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* END Ubuntu Mono Regular */
+
+/* BEGIN Ubuntu Mono Italic */
+@font-face {
+  font-family: 'Ubuntu Monospace';
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntumono-regular-italic-webfont.eot');
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntumono-regular-italic-webfont.eot?#iefix') format('embedded-opentype'), url('../themes/default/assets/fonts/ubuntu/ubuntumono-regular-italic-webfont.woff') format('woff'), url('../themes/default/assets/fonts/ubuntu/ubuntumono-regular-italic-webfont.ttf') format('truetype'), url('../themes/default/assets/fonts/ubuntu/ubuntumono-regular-italic-webfont.svg#ubuntu_monoitalic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* END Ubuntu Mono Italic */
+
+/* BEGIN Ubuntu Mono Bold */
+@font-face {
+  font-family: 'Ubuntu Monospace';
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntumono-b-webfont.eot');
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntumono-b-webfont.eot?#iefix') format('embedded-opentype'), url('../themes/default/assets/fonts/ubuntu/ubuntumono-b-webfont.woff') format('woff'), url('../themes/default/assets/fonts/ubuntu/ubuntumono-b-webfont.ttf') format('truetype'), url('../themes/default/assets/fonts/ubuntu/ubuntumono-b-webfont.svg#ubuntu_monobold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* END Ubuntu Mono Bold */
+
+/* BEGIN Ubuntu Mono Bold Italic */
+@font-face {
+  font-family: 'Ubuntu Monospace';
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntumono-bold-italic-webfont.eot');
+  src: url('../themes/default/assets/fonts/ubuntu/ubuntumono-bold-italic-webfont.eot?#iefix') format('embedded-opentype'), url('../themes/default/assets/fonts/ubuntu/ubuntumono-bold-italic-webfont.woff') format('woff'), url('../themes/default/assets/fonts/ubuntu/ubuntumono-bold-italic-webfont.ttf') format('truetype'), url('../themes/default/assets/fonts/ubuntu/ubuntumono-bold-italic-webfont.svg#ubuntu_monobold_italic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* END Ubuntu Mono Bold Italic */
